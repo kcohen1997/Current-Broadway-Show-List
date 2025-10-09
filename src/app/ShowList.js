@@ -131,7 +131,7 @@ export default function ShowList({ shows }) {
       className={`flex flex-col min-h-screen font-sans ${
         darkMode
           ? "bg-gray-900 text-gray-100"
-          : "bg-gradient-to-b from-pink-50 to-pink-100 text-gray-900"
+          : "bg-gradient-to-b from-yellow-50 to-yellow-100 text-gray-900"
       }`}
     >
       {/* Header */}
@@ -146,7 +146,7 @@ export default function ShowList({ shows }) {
           aria-label="Toggle dark/light mode"
           className={`mt-4 md:mt-0 px-4 py-2 rounded-lg font-semibold cursor-pointer transition-transform duration-200 ${
             darkMode
-              ? "bg-pink-300 text-black hover:scale-105"
+              ? "bg-yellow-300 text-black hover:scale-105"
               : "bg-red-600 text-white hover:scale-105"
           }`}
         >
